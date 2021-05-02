@@ -4,6 +4,7 @@ import { HomePageComponent } from "./home-page/home-page.component";
 import { AddAdministrativeDocComponent } from "./pages/add-administrative-doc/add-administrative-doc.component";
 import { DashboardDefaultComponent } from "./pages/dashboard/dashboard-default/dashboard-default.component";
 import { MyDemandsComponent } from "./pages/my-demands/my-demands.component";
+import { PaperDemandsComponent } from "./pages/paper-demands/paper-demands.component";
 import { SimplePageComponent } from "./pages/simple-page/simple-page.component";
 import { ProfileComponent } from "./pages/user/profile/profile.component";
 
@@ -33,6 +34,10 @@ const routes: Routes = [
       {
         path: "myDemands",
         component: MyDemandsComponent
+      },
+      {
+        path: "paperDemands",
+        component: PaperDemandsComponent
       },
       // {
       //   path: "stage", component : ,

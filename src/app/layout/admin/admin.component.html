@@ -516,10 +516,33 @@
                       <span class="pcoded-mcaret"></span>
                     </a>
                   </li>
+                  <div
+                  class="pcoded-navigatio-lavel"
+                  [attr.menu-title-theme]="menuTitleTheme"
+                  >
+                  Admin
+                  </div>
+                  <li appAccordionLink>
+                    <a
+                      [routerLink]="['paperDemands']"
+                      target="_self"
+                      appAccordionToggle
+                    >
+                      <span class="pcoded-micon"><i class="ti-list"></i></span>
+                      <span class="pcoded-mtext">Les Demandes</span>
+                      <span class="pcoded-mcaret"></span>
+                    </a>
+                  </li>
                   <!--aaaaaaaaaaaaa-->
                 </ul>
               </div>
               <div class="d-color">
+                <div
+                  class="pcoded-navigatio-lavel"
+                  [attr.menu-title-theme]="menuTitleTheme"
+                >
+                  Student
+                </div>
                 <ul
                   class="pcoded-item pcoded-left-item"
                   [attr.item-border]="itemBorder"

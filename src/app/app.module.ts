@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AddAdministrativeDocComponent } from './pages/add-administrative-doc/add-administrative-doc.component';
 import { MyDemandsComponent } from './pages/my-demands/my-demands.component';
+import { PaperDemandsComponent } from './pages/paper-demands/paper-demands.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MyDemandsComponent } from './pages/my-demands/my-demands.component';
     ProfileComponent,
     PopupComponent,
     AddAdministrativeDocComponent,
-    MyDemandsComponent
+    MyDemandsComponent,
+    PaperDemandsComponent
   ],
   imports: [
     BrowserModule,
