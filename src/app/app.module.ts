@@ -15,6 +15,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AddAdministrativeDocComponent } from './pages/add-administrative-doc/add-administrative-doc.component';
 import { MyDemandsComponent } from './pages/my-demands/my-demands.component';
 import { PaperDemandsComponent } from './pages/paper-demands/paper-demands.component';
+import { DocumentService } from './service/document.service';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,7 @@ import { PaperDemandsComponent } from './pages/paper-demands/paper-demands.compo
   ],
   entryComponents: [PopupComponent],
   schemas: [ NO_ERRORS_SCHEMA ],
-  providers: [],
+  providers: [DocumentService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
